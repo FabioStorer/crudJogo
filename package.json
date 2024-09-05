@@ -5,12 +5,13 @@
   "name": "crudjogo",
   "description": "Crud de jogo com criação e atualização",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "devDependencies": {
     "nodemon": "^3.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
